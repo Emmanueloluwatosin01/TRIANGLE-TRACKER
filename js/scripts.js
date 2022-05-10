@@ -17,12 +17,12 @@ $(document).ready(function() {
     $("#isoc").hide();
     $("#equilat").hide();
   }
-//   else if(Side1 === Side2 || Side2 === Side3 || Side1 === Side3){
-//     $("#isoc").show();
-//     $("#equilat").hide();
-//     $("#scal").hide();
-//      $("#ntn").hide();
-//   }
+  else if(Side1 === Side2 || Side2 === Side3 || Side1 === Side3){
+    $("#isoc").show();
+    $("#equilat").hide();
+    $("#scal").hide();
+     $("#ntn").hide();
+  }
 //   else if(Side1 !== Side2 && Side2 !== Side3 && Side1 !== Side3){
 //     $("#scal").show();
 //     $("#isoc").hide();
