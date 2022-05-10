@@ -5,12 +5,12 @@ $(document).ready(function() {
   const Side2 = parseInt($("#Side-2").val());
   const Side3 = parseInt($("#Side-3").val());
 
-//   if(Side1 === Side2 && Side2=== Side3 && Side1=== Side3){
-//      $("#equilat").show();
-//      $("#isoc").hide();
-//      $("#scal").hide();
-//      $("#ntn").hide();
-//   }
+  if(Side1 === Side2 && Side2=== Side3 && Side1=== Side3){
+     $("#equilat").show();
+     $("#isoc").hide();
+     $("#scal").hide();
+     $("#ntn").hide();
+  }
 //   else if (((Side1 + Side2) <= Side3) || ((Side2 + Side3) <= Side1) || ((Side1 +Side3) <= Side2)){
 //     $("#ntn").show();
 //     $("#scal").hide();
